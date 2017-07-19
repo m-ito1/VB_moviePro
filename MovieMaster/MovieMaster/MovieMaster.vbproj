@@ -78,6 +78,13 @@
     <Compile Include="complete.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include=".Designer.vb">
+      <DependentUpon>inputGenre.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inputGenre.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="genreMaster.Designer.vb">
       <DependentUpon>genreMaster.vb</DependentUpon>
     </Compile>
@@ -128,6 +135,9 @@
   <ItemGroup>
     <EmbeddedResource Include="complete.resx">
       <DependentUpon>complete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inputGenre.resx">
+      <DependentUpon>inputGenre.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="genreMaster.resx">
       <DependentUpon>genreMaster.vb</DependentUpon>

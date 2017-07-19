@@ -30,3 +30,4 @@ C:\Users\m-ito\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\obj\Debug\Mo
 C:\Users\m-ito\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\obj\Debug\MovieMaster.exe
 C:\Users\m-ito\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\obj\Debug\MovieMaster.xml
 C:\Users\m-ito\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\obj\Debug\MovieMaster.pdb
+C:\Users\m-ito\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\obj\Debug\MovieMaster.inputGenre.resources
