@@ -1,25 +1,30 @@
-﻿Public Class genreMaster
+﻿Public Class inputGenre
+
 
     Public Shared cn As System.Data.SqlClient.SqlConnection
-    Private list As New List(Of String)
 
-    Private Sub MainMenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+        checkForm()
 
 
-        Dim page As Integer = 0
+    End Sub
+
+    Private Sub checkForm()
 
         Connection()
 
         Dim cmd As New SqlClient.SqlCommand
 
-
+        'コネクションの指定
         cmd.Connection = cn
         'コマンドの種類をテキストにする（省略可）
         cmd.CommandType = CommandType.Text
         '実行するSQLを指定
-        cmd.CommandText = "SELECT GENRE_NAME FROM M_GENRE"
+        cmd.CommandText = "SELECT GENRE_ID FROM M_GENRE WHERE GENRE_ID = @id OR GENRE_NAME = @name"
+        cmd.Parameters.AddWithValue("@id", TextBox2.Text)
+        cmd.Parameters.AddWithValue("@name", TextBox1.Text)
 
-        'SQLの結果を取得する
         Dim sr As SqlClient.SqlDataReader
         sr = cmd.ExecuteReader()
 
@@ -27,19 +32,14 @@
 
         cmd.Dispose()
 
-        While (cReader.Read())
+        If (cReader.Read()) Then
+            MsgBox("入力された内容はすでに存在します")
+        End If
 
-            list.Add(cReader("GENRE_NAME"))
 
-        End While
-        sr.Close()
         disConnection()
 
-        textdisp(page)
-
-
     End Sub
-
 
     Public Sub Connection()
 
@@ -69,24 +69,6 @@
             cn.Close()
         End If
         cn.Dispose()
-
-    End Sub
-
-    Private Sub textdisp(i)
-
-        TextBox1.Text = list(0 + i)
-        TextBox2.Text = list(1 + i)
-        TextBox3.Text = list(2 + i)
-        TextBox4.Text = list(3 + i)
-
-
-    End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
-        inputGenre.Show()
-        My.Application.ApplicationContext.MainForm = inputGenre
-        Me.Close()
 
     End Sub
 End Class

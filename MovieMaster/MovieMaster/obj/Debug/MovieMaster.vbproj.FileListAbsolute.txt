@@ -14,3 +14,20 @@ c:\users\k-saitou\documents\visual studio 2017\Projects\MovieMaster\MovieMaster\
 c:\users\k-saitou\documents\visual studio 2017\Projects\MovieMaster\MovieMaster\obj\Debug\MovieMaster.pdb
 c:\users\k-saitou\documents\visual studio 2017\Projects\MovieMaster\MovieMaster\obj\Debug\MovieMaster.complete.resources
 c:\users\k-saitou\documents\visual studio 2017\Projects\MovieMaster\MovieMaster\obj\Debug\MovieMaster.inputViewer.resources
+C:\Users\m-arino\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\bin\Debug\MovieMaster.exe.config
+C:\Users\m-arino\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\bin\Debug\MovieMaster.exe
+C:\Users\m-arino\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\bin\Debug\MovieMaster.pdb
+C:\Users\m-arino\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\bin\Debug\MovieMaster.xml
+C:\Users\m-arino\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\obj\Debug\MovieMaster.vbprojResolveAssemblyReference.cache
+C:\Users\m-arino\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\obj\Debug\MovieMaster.complete.resources
+C:\Users\m-arino\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\obj\Debug\MovieMaster.inputGenre.resources
+C:\Users\m-arino\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\obj\Debug\MovieMaster.genreMaster.resources
+C:\Users\m-arino\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\obj\Debug\MovieMaster.inputViewer.resources
+C:\Users\m-arino\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\obj\Debug\MovieMaster.masterMenu.resources
+C:\Users\m-arino\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\obj\Debug\MovieMaster.movieMaster.resources
+C:\Users\m-arino\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\obj\Debug\MovieMaster.viewerMaster.resources
+C:\Users\m-arino\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\obj\Debug\MovieMaster.Resources.resources
+C:\Users\m-arino\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\obj\Debug\MovieMaster.vbproj.GenerateResource.Cache
+C:\Users\m-arino\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\obj\Debug\MovieMaster.exe
+C:\Users\m-arino\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\obj\Debug\MovieMaster.xml
+C:\Users\m-arino\Documents\GitHub\VB_moviePro\MovieMaster\MovieMaster\obj\Debug\MovieMaster.pdb
