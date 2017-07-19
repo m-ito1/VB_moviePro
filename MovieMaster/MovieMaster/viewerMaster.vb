@@ -8,8 +8,8 @@
         setInfo(infoDispList)
     End Sub
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        forwardScreen(Me, inputViewer) '追加画面に遷移
 
+        forwardScreen(Me, inputViewer) '追加画面に遷移
 
     End Sub
     Function getDispInfo()
