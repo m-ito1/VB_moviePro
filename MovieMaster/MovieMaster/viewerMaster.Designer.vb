@@ -88,11 +88,7 @@ Partial Class viewerMaster
         '
         'TextBox1
         '
-<<<<<<< HEAD
         Me.TextBox1.Location = New System.Drawing.Point(72, 29)
-=======
-        Me.TextBox1.Location = New System.Drawing.Point(72, 27)
->>>>>>> 347050eebbece156027fd308eb89f970e50a71e4
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(131, 39)
         Me.TextBox1.TabIndex = 4
@@ -100,11 +96,7 @@ Partial Class viewerMaster
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
-<<<<<<< HEAD
         Me.RadioButton4.Location = New System.Drawing.Point(6, 164)
-=======
-        Me.RadioButton4.Location = New System.Drawing.Point(6, 168)
->>>>>>> 347050eebbece156027fd308eb89f970e50a71e4
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(60, 35)
         Me.RadioButton4.TabIndex = 3
@@ -126,11 +118,7 @@ Partial Class viewerMaster
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-<<<<<<< HEAD
         Me.RadioButton2.Location = New System.Drawing.Point(6, 74)
-=======
-        Me.RadioButton2.Location = New System.Drawing.Point(6, 75)
->>>>>>> 347050eebbece156027fd308eb89f970e50a71e4
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(60, 35)
         Me.RadioButton2.TabIndex = 1
@@ -141,11 +129,7 @@ Partial Class viewerMaster
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
-<<<<<<< HEAD
         Me.RadioButton1.Location = New System.Drawing.Point(6, 30)
-=======
-        Me.RadioButton1.Location = New System.Drawing.Point(6, 31)
->>>>>>> 347050eebbece156027fd308eb89f970e50a71e4
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(60, 35)
         Me.RadioButton1.TabIndex = 0
