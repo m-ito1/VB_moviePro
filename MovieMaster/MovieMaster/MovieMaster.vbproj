@@ -72,6 +72,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.vb" />
     <Compile Include="complete.Designer.vb">
       <DependentUpon>complete.vb</DependentUpon>
     </Compile>
@@ -82,6 +83,7 @@
       <DependentUpon>inputGenre.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="deleteDao.vb" />
     <Compile Include="inputGenre.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -97,12 +99,17 @@
     <Compile Include="inputViewer.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="insertDao.vb" />
     <Compile Include="movieMaster.Designer.vb">
       <DependentUpon>movieMaster.vb</DependentUpon>
     </Compile>
     <Compile Include="movieMaster.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="pegeingDao.vb" />
+    <Compile Include="updateDao.vb" />
+    <Compile Include="util.vb" />
+    <Compile Include="viewerBean.vb" />
     <Compile Include="viewerMaster.vb">
       <SubType>Form</SubType>
     </Compile>

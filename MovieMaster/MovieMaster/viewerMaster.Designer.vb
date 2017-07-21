@@ -36,6 +36,8 @@ Partial Class viewerMaster
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -58,7 +60,7 @@ Partial Class viewerMaster
         Me.GroupBox1.Controls.Add(Me.RadioButton3)
         Me.GroupBox1.Controls.Add(Me.RadioButton2)
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
-        Me.GroupBox1.Location = New System.Drawing.Point(111, 106)
+        Me.GroupBox1.Location = New System.Drawing.Point(111, 63)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(232, 209)
         Me.GroupBox1.TabIndex = 1
@@ -173,11 +175,33 @@ Partial Class viewerMaster
         Me.Button4.Text = "戻る"
         Me.Button4.UseVisualStyleBackColor = True
         '
+        'Button5
+        '
+        Me.Button5.Enabled = False
+        Me.Button5.Location = New System.Drawing.Point(77, 290)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(86, 35)
+        Me.Button5.TabIndex = 6
+        Me.Button5.Text = "<<"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button7
+        '
+        Me.Button7.Enabled = False
+        Me.Button7.Location = New System.Drawing.Point(298, 290)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(86, 35)
+        Me.Button7.TabIndex = 8
+        Me.Button7.Text = ">>"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
         'viewerMaster
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(14.0!, 31.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(489, 447)
+        Me.Controls.Add(Me.Button7)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -209,4 +233,6 @@ Partial Class viewerMaster
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button7 As Button
 End Class
