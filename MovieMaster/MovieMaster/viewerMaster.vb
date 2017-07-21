@@ -1,4 +1,5 @@
 ﻿Public Class viewerMaster
+<<<<<<< HEAD
 
     Dim pegeingDao As New pegeingDao
     Dim deleteDao As New deleteDao
@@ -228,4 +229,16 @@
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         util.forwardScreen(Me, masterMenu)
     End Sub
+=======
+
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+
+        Dim result As DialogResult = MessageBox.Show(Me, "削除してもよろしいでしょうか", "削除", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation)
+
+
+
+    End Sub
+
+>>>>>>> origin/master
 End Class

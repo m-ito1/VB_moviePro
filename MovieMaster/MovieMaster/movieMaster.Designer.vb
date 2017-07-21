@@ -36,6 +36,8 @@ Partial Class movieMaster
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -85,9 +87,9 @@ Partial Class movieMaster
         Me.GroupBox1.Controls.Add(Me.RadioButton3)
         Me.GroupBox1.Controls.Add(Me.RadioButton2)
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
-        Me.GroupBox1.Location = New System.Drawing.Point(117, 108)
+        Me.GroupBox1.Location = New System.Drawing.Point(86, 98)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(200, 209)
+        Me.GroupBox1.Size = New System.Drawing.Size(317, 209)
         Me.GroupBox1.TabIndex = 7
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = " ID   　作品名"
@@ -97,7 +99,7 @@ Partial Class movieMaster
         Me.TextBox4.Location = New System.Drawing.Point(72, 164)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.ReadOnly = True
-        Me.TextBox4.Size = New System.Drawing.Size(100, 39)
+        Me.TextBox4.Size = New System.Drawing.Size(237, 39)
         Me.TextBox4.TabIndex = 7
         '
         'TextBox3
@@ -105,7 +107,7 @@ Partial Class movieMaster
         Me.TextBox3.Location = New System.Drawing.Point(72, 119)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.ReadOnly = True
-        Me.TextBox3.Size = New System.Drawing.Size(100, 39)
+        Me.TextBox3.Size = New System.Drawing.Size(237, 39)
         Me.TextBox3.TabIndex = 6
         '
         'TextBox2
@@ -113,7 +115,7 @@ Partial Class movieMaster
         Me.TextBox2.Location = New System.Drawing.Point(72, 74)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.ReadOnly = True
-        Me.TextBox2.Size = New System.Drawing.Size(100, 39)
+        Me.TextBox2.Size = New System.Drawing.Size(237, 39)
         Me.TextBox2.TabIndex = 5
         '
         'TextBox1
@@ -121,7 +123,7 @@ Partial Class movieMaster
         Me.TextBox1.Location = New System.Drawing.Point(72, 27)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(100, 39)
+        Me.TextBox1.Size = New System.Drawing.Size(237, 39)
         Me.TextBox1.TabIndex = 4
         '
         'RadioButton4
@@ -132,6 +134,7 @@ Partial Class movieMaster
         Me.RadioButton4.Size = New System.Drawing.Size(60, 35)
         Me.RadioButton4.TabIndex = 3
         Me.RadioButton4.TabStop = True
+        Me.RadioButton4.Tag = "4"
         Me.RadioButton4.Text = "04"
         Me.RadioButton4.UseVisualStyleBackColor = True
         '
@@ -143,6 +146,7 @@ Partial Class movieMaster
         Me.RadioButton3.Size = New System.Drawing.Size(60, 35)
         Me.RadioButton3.TabIndex = 2
         Me.RadioButton3.TabStop = True
+        Me.RadioButton3.Tag = "3"
         Me.RadioButton3.Text = "03"
         Me.RadioButton3.UseVisualStyleBackColor = True
         '
@@ -154,6 +158,7 @@ Partial Class movieMaster
         Me.RadioButton2.Size = New System.Drawing.Size(60, 35)
         Me.RadioButton2.TabIndex = 1
         Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Tag = "2"
         Me.RadioButton2.Text = "02"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
@@ -165,23 +170,46 @@ Partial Class movieMaster
         Me.RadioButton1.Size = New System.Drawing.Size(60, 35)
         Me.RadioButton1.TabIndex = 0
         Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Tag = "1"
         Me.RadioButton1.Text = "01"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(183, 31)
+        Me.Label1.Location = New System.Drawing.Point(219, 30)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(56, 31)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "作品"
+        '
+        'Button5
+        '
+        Me.Button5.Font = New System.Drawing.Font("メイリオ", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Button5.Location = New System.Drawing.Point(409, 173)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(41, 60)
+        Me.Button5.TabIndex = 12
+        Me.Button5.Text = ">>"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Button6
+        '
+        Me.Button6.Font = New System.Drawing.Font("メイリオ", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Button6.Location = New System.Drawing.Point(39, 173)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(41, 60)
+        Me.Button6.TabIndex = 13
+        Me.Button6.Text = "<<"
+        Me.Button6.UseVisualStyleBackColor = True
         '
         'movieMaster
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(14.0!, 31.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(480, 477)
+        Me.Controls.Add(Me.Button6)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -213,4 +241,6 @@ Partial Class movieMaster
     Friend WithEvents RadioButton2 As RadioButton
     Friend WithEvents RadioButton1 As RadioButton
     Friend WithEvents Label1 As Label
+    Friend WithEvents Button5 As Button
+    Friend WithEvents Button6 As Button
 End Class
