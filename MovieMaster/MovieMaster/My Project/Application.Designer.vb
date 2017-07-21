@@ -32,7 +32,11 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
+<<<<<<< HEAD
             Me.MainForm = Global.MovieMaster.genreMaster
+=======
+            Me.MainForm = Global.MovieMaster.movieMaster
+>>>>>>> 62239578c106cee93157d9023baa6e3e8502aaff
         End Sub
     End Class
 End Namespace

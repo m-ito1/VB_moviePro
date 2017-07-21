@@ -45,18 +45,16 @@ Partial Class genreMaster
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(331, 382)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Button4.Location = New System.Drawing.Point(332, 381)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(90, 45)
+        Me.Button4.Size = New System.Drawing.Size(91, 44)
         Me.Button4.TabIndex = 11
         Me.Button4.Text = "戻る"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(311, 322)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Button3.Location = New System.Drawing.Point(311, 321)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(112, 35)
         Me.Button3.TabIndex = 10
@@ -65,8 +63,7 @@ Partial Class genreMaster
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(160, 322)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Button2.Location = New System.Drawing.Point(160, 321)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(112, 35)
         Me.Button2.TabIndex = 9
@@ -75,8 +72,7 @@ Partial Class genreMaster
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(16, 322)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.Button1.Location = New System.Drawing.Point(15, 321)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(112, 35)
         Me.Button1.TabIndex = 8
@@ -93,60 +89,49 @@ Partial Class genreMaster
         Me.GroupBox1.Controls.Add(Me.RadioButton3)
         Me.GroupBox1.Controls.Add(Me.RadioButton2)
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
-        Me.GroupBox1.Location = New System.Drawing.Point(114, 97)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.GroupBox1.Location = New System.Drawing.Point(114, 96)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.GroupBox1.Size = New System.Drawing.Size(230, 209)
+        Me.GroupBox1.Size = New System.Drawing.Size(200, 209)
         Me.GroupBox1.TabIndex = 7
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = " ID    ジャンル名"
         '
         'TextBox4
         '
-        Me.TextBox4.Font = New System.Drawing.Font("メイリオ", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(72, 165)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextBox4.Location = New System.Drawing.Point(72, 164)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.ReadOnly = True
-        Me.TextBox4.Size = New System.Drawing.Size(141, 31)
+        Me.TextBox4.Size = New System.Drawing.Size(100, 39)
         Me.TextBox4.TabIndex = 7
         '
         'TextBox3
         '
-        Me.TextBox3.Font = New System.Drawing.Font("メイリオ", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(72, 118)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.TextBox3.Location = New System.Drawing.Point(72, 119)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.ReadOnly = True
-        Me.TextBox3.Size = New System.Drawing.Size(141, 31)
+        Me.TextBox3.Size = New System.Drawing.Size(100, 39)
         Me.TextBox3.TabIndex = 6
         '
         'TextBox2
         '
-        Me.TextBox2.Font = New System.Drawing.Font("メイリオ", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.TextBox2.Location = New System.Drawing.Point(72, 74)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.ReadOnly = True
-        Me.TextBox2.Size = New System.Drawing.Size(141, 31)
+        Me.TextBox2.Size = New System.Drawing.Size(100, 39)
         Me.TextBox2.TabIndex = 5
         '
         'TextBox1
         '
-        Me.TextBox1.Font = New System.Drawing.Font("メイリオ", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(72, 27)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(141, 31)
+        Me.TextBox1.Size = New System.Drawing.Size(100, 39)
         Me.TextBox1.TabIndex = 4
         '
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(6, 169)
-        Me.RadioButton4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.RadioButton4.Location = New System.Drawing.Point(6, 168)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(46, 35)
         Me.RadioButton4.TabIndex = 3
@@ -158,8 +143,12 @@ Partial Class genreMaster
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
+<<<<<<< HEAD
         Me.RadioButton3.Location = New System.Drawing.Point(6, 118)
         Me.RadioButton3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+=======
+        Me.RadioButton3.Location = New System.Drawing.Point(6, 123)
+>>>>>>> 62239578c106cee93157d9023baa6e3e8502aaff
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(46, 35)
         Me.RadioButton3.TabIndex = 2
@@ -171,8 +160,7 @@ Partial Class genreMaster
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(6, 76)
-        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.RadioButton2.Location = New System.Drawing.Point(6, 75)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(46, 35)
         Me.RadioButton2.TabIndex = 1
@@ -185,7 +173,6 @@ Partial Class genreMaster
         '
         Me.RadioButton1.AutoSize = True
         Me.RadioButton1.Location = New System.Drawing.Point(6, 31)
-        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(46, 35)
         Me.RadioButton1.TabIndex = 0
@@ -232,9 +219,13 @@ Partial Class genreMaster
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(14.0!, 31.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+<<<<<<< HEAD
         Me.ClientSize = New System.Drawing.Size(465, 459)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
+=======
+        Me.ClientSize = New System.Drawing.Size(465, 460)
+>>>>>>> 62239578c106cee93157d9023baa6e3e8502aaff
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -242,8 +233,13 @@ Partial Class genreMaster
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("メイリオ", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+<<<<<<< HEAD
         Me.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
         Me.name = "genreMaster"
+=======
+        Me.Margin = New System.Windows.Forms.Padding(7, 8, 7, 8)
+        Me.Name = "genreMaster"
+>>>>>>> 62239578c106cee93157d9023baa6e3e8502aaff
         Me.Text = "genreMaster"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

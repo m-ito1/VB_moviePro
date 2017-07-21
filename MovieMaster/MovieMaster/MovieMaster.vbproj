@@ -78,6 +78,7 @@
     <Compile Include="complete.vb">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include=".Designer.vb">
       <DependentUpon>inputGenre.vb</DependentUpon>
       <SubType>Form</SubType>
@@ -86,10 +87,19 @@
     <Compile Include="inputGenre.vb">
       <SubType>Form</SubType>
     </Compile>
+=======
+    <Compile Include="Connection.vb" />
+>>>>>>> 62239578c106cee93157d9023baa6e3e8502aaff
     <Compile Include="genreMaster.Designer.vb">
       <DependentUpon>genreMaster.vb</DependentUpon>
     </Compile>
     <Compile Include="genreMaster.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inputMovie.Designer.vb">
+      <DependentUpon>inputMovie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inputMovie.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="inputViewer.Designer.vb">
@@ -98,6 +108,7 @@
     <Compile Include="inputViewer.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="MovieDao.vb" />
     <Compile Include="movieMaster.Designer.vb">
       <DependentUpon>movieMaster.vb</DependentUpon>
     </Compile>
@@ -137,11 +148,11 @@
     <EmbeddedResource Include="complete.resx">
       <DependentUpon>complete.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="inputGenre.resx">
-      <DependentUpon>inputGenre.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="genreMaster.resx">
       <DependentUpon>genreMaster.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inputMovie.resx">
+      <DependentUpon>inputMovie.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="inputViewer.resx">
       <DependentUpon>inputViewer.vb</DependentUpon>

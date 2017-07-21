@@ -1,5 +1,6 @@
 ﻿Public Class genreMaster
 
+<<<<<<< HEAD
     Public Shared cn As System.Data.SqlClient.SqlConnection
     Private con As New Connection()
     Private namelist As New List(Of String)
@@ -316,4 +317,6 @@
         Next
     End Sub
 
+=======
+>>>>>>> 62239578c106cee93157d9023baa6e3e8502aaff
 End Class
